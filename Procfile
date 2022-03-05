@@ -1,1 +1,1 @@
-worker: python3 newfile.py
+worker: python3 main.py
