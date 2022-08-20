@@ -28,8 +28,8 @@ def main():
     #عدد حروف الذِكر
     l = len(zekr)
     print(l)
-#في حالة ان الذكر اكثر من ١٦٠ حرف  يتم الاختيار مره اخرى لان تويتر لا يقبل اكثر من ١٨٠ حرف
-    while l > 160:
+#في حالة ان الذكر اكثر من ٢٦٠ حرف  يتم الاختيار مره اخرى لان تويتر لا يقبل اكثر من ٢٨٠ حرف
+    while l > 260:
         random_azkar = random.choice(data)
         category = random_azkar["category"]
         zekr = random_azkar["zekr"]
