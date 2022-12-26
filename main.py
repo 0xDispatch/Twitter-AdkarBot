@@ -41,7 +41,7 @@ def main():
         type = random.choice(['تسابيح', 'أدعية قرآنية', 'أدعية الأنبياء'])
     random_azkar = random.choice(data[types[types.index(type)]])
     category = random_azkar["category"]
-    zekr = random_azkar["zekr"]
+    zekr = random_azkar["content"]
     #عدد حروف الذِكر
     l = len(zekr)
     print(l)
