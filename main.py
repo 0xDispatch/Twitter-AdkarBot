@@ -5,7 +5,7 @@ import tweepy
 from config import api
 from pytz import timezone
 from datetime import datetime
-
+#send
 
 #داله الأذكار
 def load_prayers():
